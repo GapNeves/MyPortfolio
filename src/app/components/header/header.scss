@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  grid-area: header;
+  gap: 24px;
+  width: 87px;
+  height: 69px;
+  margin-left: 200px;
+}

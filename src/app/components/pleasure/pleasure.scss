@@ -1,0 +1,21 @@
+.pleasure {
+  display: flex;
+  flex-direction: column;
+  grid-area: pleasure;
+  margin-bottom: 200px;
+
+  h1 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    color: var(--text-primary);
+  }
+
+  h3 {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      color: var(--text-secondary);
+  }
+}

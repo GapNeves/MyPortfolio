@@ -1,8 +1,8 @@
 .pleasure {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   grid-area: pleasure;
-  margin-bottom: 200px;
+  margin-bottom: 60px;
 
   h1 {
     font-weight: 600;
@@ -17,5 +17,10 @@
       font-size: 20px;
       line-height: 30px;
       color: var(--text-secondary);
+  }
+
+  .photo {
+    border-radius: 25px 60px;
+    box-shadow: 4px 8px 4px rgba($color: #3c3b3b75, $alpha: 1.0);
   }
 }

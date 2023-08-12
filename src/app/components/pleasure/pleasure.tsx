@@ -16,14 +16,14 @@ export default function Pleasure(){
         👋Pleasure my name is Gabriel,<br/>welcome to my portfolio.<br/>Feel free to call me and see my projects!
         </h3>
       </div>
-          <Image
-            className="photo"
-            src="/my-photo.png"
+          {/* <Image
+            className="perfil"
+            src="/perfil.png"
             alt="My Logo"
             width={350}
             height={250}
             priority
-          />
+          /> */}
       </div>
   )
 }

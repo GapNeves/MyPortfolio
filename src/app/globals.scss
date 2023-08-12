@@ -1,7 +1,7 @@
 :root {
-  --text-primary: #171614;
-  --text-secondary: #171614;
-  --bg-primary: #A4AC86;
+  --text-primary: #e5e5e5;
+  --text-secondary: #e5e5e5;
+  --bg-primary: #000000;
 }
 
 * {
@@ -18,9 +18,10 @@ body {
 
 body {
   background-color: var(--bg-primary);
+  background-image: linear-gradient(to bottom, #040404, #080808, #111111);
   // background-image: url("../../public/background.png");
-  background-size: cover;
-  background-position: center;
+  // background-size: cover;
+  // background-position: center;
   margin: 50px;
 }
 
@@ -29,10 +30,16 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #131313;
+  background-color: #000000;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #514b4b;
+  background-color: #ccff33;
   border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  body {
+    margin: 5px;
+  }
 }

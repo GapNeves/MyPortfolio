@@ -1,14 +1,13 @@
-#contact {
+.contact {
   display: flex;
   justify-content: center;
   flex-direction: row;
   gap: 24px;
-  margin-left: 150px;
 
   a {
     height: 50px;
     width: 50px;
-    border: 1px solid #171614;
+    border: 1px solid #ccff33;
     border-radius: 100%;
 
     display: flex;

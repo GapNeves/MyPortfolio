@@ -19,8 +19,9 @@
       color: var(--text-secondary);
   }
 
-  .photo {
+  .perfil {
     border-radius: 25px 60px;
-    box-shadow: 4px 8px 4px rgba($color: #3c3b3b75, $alpha: 1.0);
+    background-color: #040404;
+    // box-shadow: 4px 8px 4px rgba($color: #3c3b3b75, $alpha: 1.0);
   }
 }

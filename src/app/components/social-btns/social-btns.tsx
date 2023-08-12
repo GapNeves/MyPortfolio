@@ -6,7 +6,7 @@ import"./social-btns.scss";
 
 export function SocialBtns(){
   return(
-      <div id="contact">
+      <div className="contact">
         <a href="https://www.linkedin.com/in/gabrielneves-dev/" target="blank">
           <InIcon/>
         </a>

@@ -1,11 +1,14 @@
 .header {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   align-items: center;
+  justify-content: center;
   grid-area: header;
-  gap: 24px;
-  width: 87px;
-  height: 69px;
-  margin-left: 200px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }

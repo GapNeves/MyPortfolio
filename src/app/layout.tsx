@@ -1,9 +1,9 @@
 import './globals.scss'
-import { Poppins } from 'next/font/google'
+import { Roboto } from 'next/font/google'
 
-const inter = Poppins({ 
-  subsets: ['latin'], 
-  weight: ['300', '400', '500', '600']
+const inter = Roboto({ 
+  subsets: ['latin'],
+  weight: ["100", "300", "400", "500", "700", "900"]
 })
 
 export const metadata = {

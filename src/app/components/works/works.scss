@@ -30,3 +30,17 @@
     color: var(--text-secondary);
 }
 }
+
+@media (max-width: 768px) {
+  .works {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .elipse {
+    display: flex;
+    flex-direction: row;
+  }
+}

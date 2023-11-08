@@ -2,6 +2,7 @@ import Image from "next/image";
 import "./header.scss";
 import perfilPotho from "../images/perfil-potho.png";
 import photoHeader from "../images/not-and-books.jpg"
+import { SocialBtns } from "../social-btns/social-btns";
 
 export default function Header(){
   return(
@@ -16,6 +17,7 @@ export default function Header(){
             className="header-photo"
           />
         <h1>Gabriel Pereira Neves</h1>
+        <SocialBtns />
       </div>
     </div>
   )

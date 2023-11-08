@@ -1,17 +1,37 @@
 .main {
-  background-size: cover;
-  background-position: center;
-  background-image: url('../images/keyboard-coffee.jpg');
   display: flex;
-  height: calc(100vh - 5vh);
   align-items: center;
   text-align: center;
   grid-area: main;
 
+  background-size: cover;
+  background-position: center;
+  background-image: url('../images/keyboard-coffee.jpg');
+  
+  height: calc(90vh - 5vh);
+
+  .h1-dev {
+    margin: 5px;
+    margin-left: 20px;
+    font-weight: 900px;
+    font-size: 55px;
+    color: var(--text-primary);
+  }
+
   h1 {
     display: flex;
     align-items: first baseline;
-    color: #fff;
+    color: var(--text-secondary);
+    margin-left: 20px;
+  }
+
+  h2 {
+    display: flex;
+    align-items: first baseline;
+    text-align: left;
+    color: var(--text-secondary);
+    max-width: 50%;
+    margin-left: 20px;
   }
 }
 

@@ -1,25 +1,22 @@
 import Image from "next/image";
-import "../header/header.scss";
-import { SocialBtns } from "../social-btns/social-btns";
+import "./header.scss";
+import perfilPotho from "../images/perfil-potho.png";
+import photoHeader from "../images/not-and-books.jpg"
 
 export default function Header(){
   return(
-    <div>
-      <div className="header">
-        <div className="logo">
+    <div className="header">
+      <div className="header-container">
           <Image
-            src="/white-logo.png"
-            alt="My Logo"
-            width={95}
-            height={120}
+            src={perfilPotho}
+            alt="My photo"
+            width={70}
+            height={70}
             priority
+            className="header-photo"
           />
-        </div>
-        <div className="contact">
-          <SocialBtns/>
-        </div>
+        <h1>Gabriel Pereira Neves</h1>
       </div>
-      <hr/>
     </div>
   )
 }

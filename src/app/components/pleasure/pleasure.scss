@@ -1,10 +1,15 @@
 .pleasure {
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: row;
   grid-area: pleasure;
+
+  margin: 15px;
   margin-bottom: 60px;
 
   h1 {
+    display: flex;
     font-weight: 600;
     font-size: 28px;
     line-height: 42px;
@@ -12,6 +17,9 @@
   }
 
   h3 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
       font-style: normal;
       font-weight: 400;
       font-size: 20px;

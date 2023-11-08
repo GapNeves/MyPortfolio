@@ -1,7 +1,8 @@
 :root {
   --text-primary: #F5CB5C;
   --text-secondary: #CFDBD5;
-  --bg-primary: #000000;
+  --bg-primary: #242423;
+  --bg-secondary: #252624;
 }
 
 * {
@@ -17,7 +18,6 @@ body {
 }
 
 body {
-  background-color: var(--bg-primary);
   background-image: linear-gradient(to bottom, #040404, #080808, #111111);
 }
 

@@ -5,6 +5,7 @@ export default function Pleasure(){
   return(
       <div className="pleasure">
       <div>
+        <hr/>
         <h1>
         {"IT'S GREAT TO CELEBRATE SUCCESS, BUT IT'S MORE "}
         {'IMPORTANT TO LEARN FROM THE LESSONS OF FAILURE.'}

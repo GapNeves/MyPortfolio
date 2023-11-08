@@ -1,11 +1,37 @@
-.aboutme {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
+.about {
   margin-left: 15px;
   margin-right: 15px;
   grid-area: aboutme;
   gap: 24px;
+
+  .about-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+  }
+
+  .about-coutainer {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin: 1% 5% 5% 5%;
+  
+  }
+
+  .about-me > p {
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.8; /* Aumenta o espaçamento entre as linhas */
+    margin-bottom: 10px; /* Adiciona margem na parte inferior de cada parágrafo */
+    color: var(--text-secondary);
+  }
 
   h1 {
     font-weight: 600;
@@ -15,20 +41,24 @@
     margin-bottom: 20px;
   }
 
-  h3 {
-      font-style: normal;
-      font-weight: 400;
-      font-size: 20px;
-      line-height: 30px;
-      color: var(--text-secondary);
-  }
-  p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
+  .technologies {
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 1% 5% 5% 5%;
     color: var(--text-secondary);
-}
+  }
+  
+  .technologies > div {
+    margin: 1.5%;
+    transition: transform 0.3s, margin 0.3s;
+  }
+  
+  .technologies > div:hover {
+    transform: scale(1.2);
+  }
 }
 
 @media (max-width: 768px) {

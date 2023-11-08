@@ -1,14 +1,25 @@
-.header {
+.header-container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   grid-area: header;
+
+  background-color: #242423;
+
+  h1 {
+    color: #F5CB5C;
+  }
+
+  .header-photo {
+    border-radius: 50%;
+    border: 1px solid #F5CB5C;
+  }
 }
 
 @media (max-width: 768px) {
-  .header {
+  .header-container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
   }
 }

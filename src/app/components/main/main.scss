@@ -1,0 +1,24 @@
+.main {
+  background-size: cover;
+  background-position: center;
+  background-image: url('../images/keyboard-coffee.jpg');
+  display: flex;
+  height: calc(100vh - 5vh);
+  align-items: center;
+  text-align: center;
+  grid-area: main;
+
+  h1 {
+    display: flex;
+    align-items: first baseline;
+    color: #fff;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

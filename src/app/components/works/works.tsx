@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import "../works/works.scss";
 import { Elipse } from "../Icons/elipse";
 

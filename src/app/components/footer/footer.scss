@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  grid-area: footer;
+  background-color: black;
+  
+  .devs {
+    color: var(--text-primary);
+    margin: 8px;
+  }
+
+  h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: var(--text-secondary);
+  }
+
+}

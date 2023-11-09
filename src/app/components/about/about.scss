@@ -9,6 +9,12 @@
     flex-direction: row;
   }
   
+  .about-me,
+  .technologies {
+    width: 50%;
+    margin: 1% 5% 5% 5%;
+  }
+
   .about-me {
     display: flex;
     flex-direction: column;
@@ -28,6 +34,10 @@
   h1 {
     font-size: 28px;
     color: var(--text-primary);
+  }
+
+  .technologies > h1 {
+    margin: 50px 270px 5px 5px;
   }
 
   .technologies {
@@ -61,8 +71,10 @@
 
     .about-me,
     .technologies {
-      width: 95%;
+      width: 98%;
+      margin: 1% 5% 5% 5%;
     }
+  
     
     .about-me {
       display: flex;
@@ -73,6 +85,10 @@
       font-size: 18px;
       line-height: 1.8;
       color: var(--text-secondary);
+    }
+
+    .technologies > h1 {
+      margin: 5px 150px 5px 2px;
     }
   
     h1 {
@@ -86,15 +102,6 @@
     .technologies {
       display: flex;
       color: var(--text-secondary);
-    }
-    
-    .technologies > div {
-      margin: 1.5%;
-      transition: transform 0.3s, margin 0.3s;
-    }
-    
-    .technologies > div:hover {
-      transform: scale(1.2);
     }
   }
 }

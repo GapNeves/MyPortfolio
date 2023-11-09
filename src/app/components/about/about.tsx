@@ -8,8 +8,8 @@ export default function About(){
 
       <div className="about-coutainer">
 
-        <h1>Tools and Technology</h1>
         <div className="technologies">
+          <h1>Tools and Technologies</h1>
           {
             technologies.map(({technology, image}) => (
               <div key={technology}>

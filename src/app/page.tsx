@@ -5,6 +5,7 @@ import About from './components/about/about';
 import Header from './components/header/header';
 import Works from './components/works/works';
 import Main from './components/main/main';
+import Footer from './components/footer/footer';
 
 export default function Home() {
   return (
@@ -13,7 +14,7 @@ export default function Home() {
       <Main />
       <Pleasure/>
       <About/>
-      <Works/>
+      <Footer />
     </div>
   )
 }

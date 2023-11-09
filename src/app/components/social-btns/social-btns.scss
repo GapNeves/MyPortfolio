@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   flex-direction: row;
-  gap: 24px;
 
   a {
     height: 50px;
@@ -11,5 +10,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  
+    a {
+      height: 35px;
+      width: 35px;
+  
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
   }
 }

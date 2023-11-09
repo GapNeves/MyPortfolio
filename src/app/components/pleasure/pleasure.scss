@@ -5,14 +5,14 @@
   flex-direction: row;
   grid-area: pleasure;
 
-  margin: 15px;
-  margin-bottom: 60px;
+  margin: 16px;
+  margin-bottom: 40px;
 
   h1 {
     display: flex;
-    font-weight: 600;
+    font-weight: 375;
     font-size: 28px;
-    line-height: 42px;
+    line-height: 37px;
     margin-top: 20px;
     color: var(--text-primary);
   }
@@ -31,10 +31,39 @@
   hr {
     margin-top: 10px;
   }
+}
 
-  .perfil {
-    border-radius: 25px 60px;
-    background-color: #040404;
-    // box-shadow: 4px 8px 4px rgba($color: #3c3b3b75, $alpha: 1.0);
+@media (max-width: 768px) {
+  .pleasure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    grid-area: pleasure;
+  
+    margin: 15px;
+  
+    h1 {
+      display: flex;
+      font-weight: 350;
+      font-size: 16px;
+      line-height: 15px;
+      margin-top: 20px;
+      color: var(--text-primary);
+    }
+  
+    h3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        color: var(--text-secondary);
+    }
+  
+    hr {
+      margin-top: 10px;
+    }
   }
 }

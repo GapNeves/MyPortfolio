@@ -5,6 +5,7 @@ import mocha from './images/images-technologies/mocha.png';
 import rtl from './images/images-technologies/rtl.png';
 import sinon from './images/images-technologies/sinon.png';
 import css from './images/images-technologies/css.png';
+import sass from './images/images-technologies/sass.png'
 import html from './images/images-technologies/html.png';
 import docker from './images/images-technologies/docker.png';
 import sequelize from './images/images-technologies/sequelize.png';
@@ -30,6 +31,7 @@ const technologies: Technology[] = [
     { technology: 'TypeScript', image: ts },
     { technology: 'HTML', image: html },
     { technology: 'CSS', image: css },
+    { technology: 'Sass', image: sass },
     { technology: 'React', image: react },
     { technology: 'Hooks', image: hooks },
     { technology: 'RTL', image: rtl },

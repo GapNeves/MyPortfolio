@@ -2,7 +2,7 @@
   --text-primary: #F5CB5C;
   --text-secondary: #CFDBD5;
   --bg-primary: #242423;
-  --bg-secondary: #252624;
+  --bg-secondary: #2526248b;
 }
 
 * {
@@ -18,7 +18,13 @@ body {
 }
 
 body {
-  background-image: linear-gradient(to bottom, #040404, #080808, #111111);
+  background-size: 100% 100%;
+  background-position: center;
+  background-image: url('./components/images/background.jpeg');
+
+  margin: 0;
+  height: 100vh;
+  // overflow: hidden;
 }
 
 ::-webkit-scrollbar {

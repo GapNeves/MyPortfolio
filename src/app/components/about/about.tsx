@@ -1,11 +1,12 @@
 import Image from 'next/image';
 import '../about/about.scss';
-// import technologies from '../technologies';
+import about from '../images/about-me.png';
 
 export default function About() {
   return (
     <div className="about">
-      <section className="about-me">
+      <Image src={about} alt="about me" />
+      <div className="about-me">
         <h1>About me</h1>
         <p>
           I am a graduate in Internet Computing Technology from Faculdade Tecnológica SENAI-MG and
@@ -17,7 +18,7 @@ export default function About() {
           ultimate goal of expanding my web development skills to make a positive impact on a global
           scale.
         </p>
-      </section>
+      </div>
     </div>
   );
 }

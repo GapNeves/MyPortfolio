@@ -14,18 +14,18 @@
     font-size: 28px;
     line-height: 37px;
     margin-top: 20px;
-    color: var(--text-primary);
+    color: var(--text-secondary);
   }
 
   h3 {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 20px;
-      line-height: 30px;
-      color: var(--text-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--text-secondary);
   }
 
   hr {
@@ -40,9 +40,9 @@
     justify-content: center;
     flex-direction: row;
     grid-area: pleasure;
-  
+
     margin: 15px;
-  
+
     h1 {
       display: flex;
       font-weight: 350;
@@ -51,17 +51,17 @@
       margin-top: 20px;
       color: var(--text-primary);
     }
-  
+
     h3 {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        color: var(--text-secondary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      color: var(--text-secondary);
     }
-  
+
     hr {
       margin-top: 10px;
     }

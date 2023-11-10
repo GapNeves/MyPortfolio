@@ -16,7 +16,6 @@ export default function Header() {
           priority
           className="header-photo"
         />
-        {/* <h1>Gabriel Pereira Neves</h1> */}
         <SocialBtns />
       </div>
     </div>

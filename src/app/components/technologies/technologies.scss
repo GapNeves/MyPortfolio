@@ -15,7 +15,7 @@
     justify-content: center;
     align-items: center;
 
-    max-width: 75%;
+    max-width: 50%;
     margin: 20px;
   }
 
@@ -25,6 +25,10 @@
 
   .tech-container > div:hover {
     transform: scale(1.2);
+  }
+
+  .technology {
+    transform: scaleX(-1);
   }
 
   h1 {

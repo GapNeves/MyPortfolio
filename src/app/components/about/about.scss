@@ -1,107 +1,18 @@
 .about {
-  margin-left: 15px;
-  grid-area: aboutme;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  grid-area: about;
   gap: 24px;
+
   background-color: var(--bg-secondary);
-
-  .about-coutainer {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .about-me,
-  .technologies {
-    width: 50%;
-    margin: 1% 5% 5% 5%;
-  }
-
-  .about-me {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 50%;
-    margin: 1% 5% 5% 5%;
-  
-  }
-
-  .about-me > p {
-    font-size: 18px;
-    line-height: 1.8;
-    margin-bottom: 10px;
-    color: var(--text-secondary);
-  }
-
-  h1 {
-    font-size: 28px;
-    color: var(--text-primary);
-  }
-
-  .technologies > h1 {
-    margin: 50px 270px 5px 5px;
-  }
-
-  .technologies {
-    display: flex;
-    justify-content: center;
-    align-items: last baseline;
-    flex-wrap: wrap;
-    width: 50%;
-    color: var(--text-secondary);
-  }
-  
-  .technologies > div {
-    margin: 1.5%;
-    transition: transform 0.3s, margin 0.3s;
-  }
-  
-  .technologies > div:hover {
-    transform: scale(1.2);
-  }
+  margin: 15px;
 }
 
 @media (max-width: 768px) {
   .about {
     grid-area: aboutme;
     background-color: var(--bg-secondary);
-  
-    .about-coutainer {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .about-me,
-    .technologies {
-      width: 98%;
-      margin: 1% 5% 5% 5%;
-    }
-  
-    
-    .about-me {
-      display: flex;
-      justify-content: center;
-    }
-  
-    .about-me > p {
-      font-size: 18px;
-      line-height: 1.8;
-      color: var(--text-secondary);
-    }
-
-    .technologies > h1 {
-      margin: 5px 150px 5px 2px;
-    }
-  
-    h1 {
-      font-weight: 600;
-      font-size: 18px;
-      line-height: 42px;
-      color: var(--text-primary);
-      margin-bottom: 20px;
-    }
-  
-    .technologies {
-      display: flex;
-      color: var(--text-secondary);
-    }
   }
 }

@@ -1,10 +1,11 @@
 .container {
   display: grid;
   grid-template-areas:
-  "header"
-  "main"
-  "pleasure"
-  "aboutme"
-  "works"
-  "footer"
+    'header'
+    'main'
+    'pleasure'
+    'technologies'
+    'about'
+    'works'
+    'footer';
 }

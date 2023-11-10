@@ -33,6 +33,7 @@
 
   h1 {
     width: 100%;
+    font-size: 2rem;
     text-align: center;
     margin-bottom: 20px;
     color: var(--text-primary);
@@ -56,46 +57,32 @@
 
 @media (max-width: 768px) {
   .technologies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     grid-area: technologies;
+    gap: 24px;
+
     background-color: var(--bg-secondary);
+    margin: 5px;
 
-    // .about-coutainer {
-    //   display: flex;
-    //   flex-direction: column;
-    // }
-
-    // .about-me,
-    // .technologies {
-    //   width: 98%;
-    //   margin: 1% 5% 5% 5%;
-    // }
-
-    .about-me {
+    .tech-container {
       display: flex;
+      flex-wrap: wrap;
       justify-content: center;
+      align-items: center;
+
+      max-width: 100%;
+      margin: 1px;
     }
 
-    .about-me > p {
-      font-size: 18px;
-      line-height: 1.8;
-      color: var(--text-secondary);
+    img {
+      max-width: 40%;
     }
 
-    .technologies > h1 {
-      margin: 5px 150px 5px 2px;
-    }
-
-    h1 {
-      font-weight: 600;
-      font-size: 18px;
-      line-height: 42px;
-      color: var(--text-primary);
-      margin-bottom: 20px;
-    }
-
-    .technologies {
-      display: flex;
-      color: var(--text-secondary);
+    .technology {
+      display: none;
     }
   }
 }

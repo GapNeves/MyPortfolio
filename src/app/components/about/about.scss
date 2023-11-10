@@ -13,14 +13,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    margin: 50px;
   }
 
   .about-me > h1 {
     color: var(--text-primary);
     font-size: 2rem;
-    font-weight: 700;
     text-align: center;
     margin: 10px;
   }
@@ -38,5 +35,18 @@
   .about {
     grid-area: about;
     background-color: var(--bg-secondary);
+    margin: 5px;
+
+    .about-me > p {
+      color: var(--text-secondary);
+      font-size: 1.2rem;
+      font-weight: 300;
+      text-align: left;
+      margin: 10px;
+    }
+
+    .photo-about {
+      display: none;
+    }
   }
 }

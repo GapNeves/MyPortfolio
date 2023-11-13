@@ -10,10 +10,15 @@
   background-color: var(--bg-secondary);
 
   h1 {
+    margin-top: 20px;
     color: var(--text-primary);
   }
 
   h2 {
+    color: var(--text-primary);
+  }
+
+  h3 {
     color: var(--text-secondary);
   }
 
@@ -42,6 +47,10 @@
         justify-content: center;
         flex-direction: column;
         max-width: 40%;
+
+        // .button-content {
+        //   margin: 5px;
+        // }
       }
 
       .image-content {
@@ -67,11 +76,12 @@
     margin-right: 5px;
 
     h1 {
+      font-size: xx-large;
       color: var(--text-primary);
     }
 
     h2 {
-      color: var(--text-secondary);
+      color: var(--text-primary);
     }
 
     p {

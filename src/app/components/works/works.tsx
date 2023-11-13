@@ -13,7 +13,7 @@ export default function Works() {
     <div className="works">
       <h1>Works</h1>
       <Splide>
-        {portfolio.map(({ id, image, projectName, subTitle, description }) => (
+        {portfolio.map(({ id, image, projectName, subTitle, description, Rlink, Plink }) => (
           <SplideSlide key={id} className="work-item">
             <div className="work-content">
               <div className="image-content">
@@ -21,9 +21,17 @@ export default function Works() {
               </div>
 
               <div className="text-content">
-                <h1>{projectName}</h1>
-                <h2>{subTitle}</h2>
+                <h2>{projectName}</h2>
+                <h3>{subTitle}</h3>
                 <p>{description}</p>
+                <div className="button-content">
+                  <a href={Plink} target="_blank" rel="noopener noreferrer">
+                    <button>Projeto</button>
+                  </a>
+                  <a href={Rlink} target="_blank" rel="noopener noreferrer">
+                    <button>Repositório</button>
+                  </a>
+                </div>
               </div>
             </div>
           </SplideSlide>

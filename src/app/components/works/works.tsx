@@ -24,10 +24,14 @@ export default function Works() {
                 <h2>{projectName}</h2>
                 <h3>{subTitle}</h3>
                 <p>{description}</p>
-                {/* <div className="button-content">
-                  <button>{Plink}</button>
-                  <button>{Rlink}</button>
-                </div> */}
+                <div className="button-content">
+                  <a href={Plink} target="_blank" rel="noopener noreferrer">
+                    <button>Projeto</button>
+                  </a>
+                  <a href={Rlink} target="_blank" rel="noopener noreferrer">
+                    <button>Repositório</button>
+                  </a>
+                </div>
               </div>
             </div>
           </SplideSlide>

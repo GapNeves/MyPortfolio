@@ -48,9 +48,29 @@
         flex-direction: column;
         max-width: 40%;
 
-        // .button-content {
-        //   margin: 5px;
-        // }
+        .button-content {
+          display: flex;
+          gap: 10px;
+
+          button {
+            background-color: #669bbc;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+
+            &:hover {
+              background-color: #1c567b;
+            }
+          }
+
+          a {
+            text-decoration: none;
+            color: inherit;
+          }
+        }
       }
 
       .image-content {

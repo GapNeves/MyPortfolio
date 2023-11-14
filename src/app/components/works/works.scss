@@ -14,31 +14,24 @@
     color: var(--text-primary);
   }
 
-  h2 {
-    color: var(--text-primary);
-  }
-
-  h3 {
-    color: var(--text-secondary);
-  }
-
-  p {
-    max-width: 100%;
-    overflow: hidden;
-    color: var(--text-secondary);
-    font-size: large;
-  }
-
   .work-item {
-    display: flex;
-    align-items: center;
     height: 50vh;
     width: 50%;
+    height: auto;
+    width: 100%;
+
+    h2 {
+      color: var(--text-primary);
+    }
+
+    h3 {
+      color: var(--text-secondary);
+    }
 
     .work-content {
       display: flex;
       align-items: center;
-      justify-content: center;
+      flex-direction: row;
       width: 100%;
 
       .text-content {
@@ -46,7 +39,15 @@
         align-items: flex-start;
         justify-content: center;
         flex-direction: column;
-        max-width: 40%;
+        max-width: 90%;
+
+        p {
+          overflow: hidden;
+          color: var(--text-secondary);
+          font-size: 1.5rem;
+          font-weight: 300;
+          max-width: 100%;
+        }
 
         .button-content {
           display: flex;
@@ -73,13 +74,10 @@
         }
       }
 
-      .image-content {
-        margin-right: 0px;
-        max-width: 100%;
-      }
       .image-content > img {
-        width: 600px;
-        height: 400px;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
       }
     }
   }
@@ -87,16 +85,14 @@
 
 @media (max-width: 768px) {
   .works {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
     margin-left: 5px;
     margin-right: 5px;
 
     h1 {
-      font-size: xx-large;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
       color: var(--text-primary);
     }
 
@@ -104,32 +100,32 @@
       color: var(--text-primary);
     }
 
-    p {
-      max-width: 100%;
-      color: var(--text-secondary);
-      font-size: large;
-    }
-
     .work-item {
-      // flex-direction: column;
+      display: flex;
+      flex-direction: column;
       height: auto;
+      margin-bottom: 10px;
 
       .work-content {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+
         .text-content {
-          max-width: 100%;
-        }
+          p {
+            color: var(--text-secondary);
+            font-size: 1.5rem;
+          }
 
-        .image-content {
-          margin-bottom: 20px;
+          a {
+            text-decoration: none;
+            color: inherit;
+          }
         }
+      }
 
-        .image-content > img {
-          width: 100%;
-          max-width: 200px;
-          height: auto;
-        }
+      .image-content > img {
+        height: auto;
       }
     }
   }

@@ -11,10 +11,6 @@
 
   background-color: var(--bg-secondary);
 
-  h1 {
-    color: var(--text-primary);
-  }
-
   .header-photo {
     border-radius: 50%;
     border: 1px solid var(--text-primary);
@@ -26,11 +22,6 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-  }
-
-  h1 {
-    color: var(--text-primary);
-    font-size: 15px;
   }
 
   .header-photo {
